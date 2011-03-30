@@ -104,7 +104,7 @@ class Solr::Connection
   def search(query, options={}, &action)
     create_and_send_query(Solr::Request::Dismax, options.update(:query => query), &action)
   end
-
+  
   # sends a commit message to the server
   def commit(options={})
     response = send(Solr::Request::Commit.new(options))

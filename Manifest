@@ -1,3 +1,4 @@
+Manifest
 Rakefile
 lib/solr.rb
 lib/solr/connection.rb
@@ -18,8 +19,10 @@ lib/solr/request/base.rb
 lib/solr/request/commit.rb
 lib/solr/request/delete.rb
 lib/solr/request/dismax.rb
+lib/solr/request/extract.rb
 lib/solr/request/index_info.rb
 lib/solr/request/modify_document.rb
+lib/solr/request/more_like_this.rb
 lib/solr/request/optimize.rb
 lib/solr/request/ping.rb
 lib/solr/request/select.rb
@@ -34,6 +37,7 @@ lib/solr/response/delete.rb
 lib/solr/response/dismax.rb
 lib/solr/response/index_info.rb
 lib/solr/response/modify_document.rb
+lib/solr/response/more_like_this.rb
 lib/solr/response/optimize.rb
 lib/solr/response/ping.rb
 lib/solr/response/ruby.rb
@@ -44,6 +48,7 @@ lib/solr/response/xml.rb
 lib/solr/solrtasks.rb
 lib/solr/util.rb
 lib/solr/xml.rb
+solr-ruby.gemspec
 test/unit/add_document_test.rb
 test/unit/array_mapper_test.rb
 test/unit/changes_yaml_test.rb
@@ -73,4 +78,3 @@ test/unit/tab_delimited.txt
 test/unit/util_test.rb
 test/unit/xpath_mapper_test.rb
 test/unit/xpath_test_file.xml
-Manifest
